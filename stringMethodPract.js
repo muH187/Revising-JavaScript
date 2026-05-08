@@ -13,3 +13,10 @@ console.log(myName.split());
 console.log(fullName.split(" ")) // every word will be an array
 console.log(fullName.split()) // will be a single array
 console.log(fullName.split("")) // every letter will be an array
+
+
+function reverseStr(yourStr) {
+    console.log(yourStr.split("").reverse().join(""))
+}
+
+reverseStr("Ali")
