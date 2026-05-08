@@ -27,3 +27,17 @@ function capitalization(string) {
 
 const result = capitalization("javascript")
 console.log(result)
+
+function vowelCount(str1) {
+    let count = 0
+    let vowels = "aeiou"
+    for(let char of str1.toLowerCase()) {
+        if(vowels.includes(char)) {
+            count++
+        }
+    }
+    return count
+}
+
+const result1 = vowelCount("Hello. My name is Muhammad Ali Khan")
+console.log(result1)
