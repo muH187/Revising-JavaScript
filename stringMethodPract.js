@@ -20,3 +20,10 @@ function reverseStr(yourStr) {
 }
 
 reverseStr("Ali")
+
+function capitalization(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1)
+}
+
+const result = capitalization("javascript")
+console.log(result)
